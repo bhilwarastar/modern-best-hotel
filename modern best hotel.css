@@ -1,0 +1,1061 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    /* background-color: transparent; */
+    /* width: 1343px; */
+}
+
+.header {
+    height: 150px;
+    width: 1343px;
+    background-color: transparent;
+}
+
+.contaner {
+    width: 1343px;
+    color: gray;
+    display: flex;
+    padding-top: 15px;
+}
+
+.locationicon {
+    height: 15px;
+    padding-left: 15px;
+    padding-top: 2px;
+
+}
+
+.smissouri {
+    font-size: 13px;
+}
+
+.smissouri:hover {
+    color: rgb(218, 156, 112);
+    ;
+}
+
+
+.callicon {
+    height: 15px;
+    padding-left: 25px;
+    padding-top: 2px;
+}
+
+.contactusdirectly {
+    font-size: 13px;
+    padding-left: 5px;
+}
+
+.contactusdirectly:hover {
+    color: rgb(192, 139, 102);
+}
+
+.hrheader {
+    height: 1;
+    width: 1310px;
+    margin-left: 15px;
+}
+
+.header2 {}
+
+.logo {
+    width: 170px;
+    height: 40px;
+    padding-left: 15px;
+    padding-top: 20px;
+
+}
+
+.modern {
+    font-size: 40px;
+    text-decoration: none;
+    color: #3749a1;
+}
+
+.besthotel {
+    font-size: 10px;
+    color: gray;
+    text-align: center;
+    letter-spacing: 5px;
+    text-decoration: none;
+}
+
+.header3 {
+    width: 1070px;
+    position: relative;
+    left: 270px;
+    margin-top: -20px;
+
+}
+
+.header4a {
+    margin: 13px;
+    text-decoration: none;
+    color: gray;
+    letter-spacing: 2px;
+    font-size: 15px;
+
+}
+
+.header4a:hover {
+    color: black;
+}
+
+
+
+.bookaroom {
+    width: 180px;
+    height: 50px;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    color: rgb(214, 148, 101);
+    background-color: transparent;
+    border: 1px solid chocolate;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.bookaroom:hover {
+    color: black;
+    border: 1px solid black;
+}
+
+.backgroundimg {
+    width: 1343px;
+    height: 650px;
+    background-image: url(sliderimg.jpg);
+    background-position: center;
+
+
+}
+
+.backgroundimg::before {
+    content: '';
+    position: absolute;
+    top: 170;
+    left: 0;
+    width: 1343px;
+    height: 650px;
+    background-color: black;
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+
+
+.main1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;
+
+}
+
+.fourstar {
+    padding-top: 100px;
+}
+
+.welcometo {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    opacity: 0.9;
+    letter-spacing: 1px;
+    padding-top: 35px;
+    text-shadow: 1px 1px 1px black;
+}
+
+.mainmodernhotel {
+    text-align: center;
+    font-size: 84px;
+    color: white;
+    opacity: 0.9;
+    padding-top: 35px;
+    text-shadow: 2px 2px 1px black;
+    position: relative;
+    top: -25px;
+}
+
+.mainindianapolis {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    opacity: 0.9;
+    padding-top: 35px;
+    text-shadow: 1px 1px 1px black;
+    position: relative;
+    top: -25px;
+    line-height: 40px;
+}
+
+.mainwhitebanner {
+    width: 1310px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    /* position:relative; left: 15px; top: -100px; */
+    position: absolute;
+    bottom: -250px;
+    left: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 10px gray;
+}
+
+.Arrival {
+    font-size: 20px;
+    padding-left: 30px;
+    letter-spacing: 2px;
+}
+
+#check {
+    font-size: 14px;
+    margin-left: 30px;
+
+}
+
+.Departure {
+    font-size: 20px;
+    letter-spacing: 2px;
+
+}
+
+#check-in {
+    font-size: 18px;
+
+}
+
+.adults {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+#adults1 {
+    letter-spacing: 62px;
+    font-size: 17px;
+}
+
+.children {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+#children1 {
+    letter-spacing: 62px;
+    font-size: 17px;
+}
+
+.check-Availability {
+    width: 260px;
+    height: 50px;
+    margin-right: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 12px;
+    background-color: rgb(230, 148, 119);
+    color: white;
+    border: none;
+}
+
+.check-Availability:hover {
+    background-color: black;
+}
+
+.maineveningphoto {
+    width: 1343px;
+    height: 770px;
+    background: linear-gradient(to bottom, #faf2f2 20%, #f7efef, #faf2f2);
+    display: flex;
+}
+
+.maindivwelcome {
+    padding-top: 210px;
+    margin-left: 15px;
+
+
+}
+
+.WELCOMETOTHE {
+    letter-spacing: 2px;
+}
+
+.BestIndianapolisHotel {
+    font-size: 55px;
+    padding-top: 20px;
+}
+
+.TheWoodshotel {
+    padding-top: 30px;
+    color: gray;
+    line-height: 35px;
+    font-size: 20px;
+
+    z-index: 2;
+}
+
+.READMOREa {
+    width: 160px;
+    height: 50px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    background-color: transparent;
+    border: 1px solid rgb(218, 163, 141);
+    color: rgb(218, 163, 141);
+    margin-top: 40px;
+}
+
+.READMOREa:hover {
+    color: black;
+    border: 1px solid black;
+}
+
+.aboutnature {
+    border: 15px solid white;
+    position: relative;
+    top: 210px;
+    left: 90px;
+}
+
+.Plentyofroom {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 100px;
+    color: rgb(29, 29, 29);
+}
+
+.RoomsSuites {
+    text-align: center;
+    font-size: 55px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 25px;
+}
+
+.ModernHotelhas35 {
+    text-align: center;
+    font-size: 20px;
+    color: gray;
+    margin-top: 40px;
+    line-height: 30px;
+}
+
+.main2baddiv {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+
+.bad1-bad2-bad3 {
+    height: 283px;
+    width: 388px;
+    border: 15px solid rgb(252, 246, 243);
+}
+
+.bad1-bad2-bad3:hover {
+    height: 295px;
+    width: 400px;
+    border: 7px solid rgb(252, 246, 243);
+    transition: 0.3s;
+
+}
+
+.SuiteDoubleRoomFamilyRoom {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main3aboutbad {
+    width: 400px;
+    height: 450px;
+    position: relative;
+    top: 20px;
+}
+
+#Suite:hover {
+    color: rgb(218, 163, 141);
+}
+
+
+#main3bad1 {
+    position: relative;
+    right: 14px;
+}
+
+#Suite:hover {
+    color: rgb(218, 163, 141);
+}
+
+
+#main3bad2 {
+    position: relative;
+    right: 9px;
+}
+
+#DoubleRoom:hover {
+    color: rgb(218, 163, 141);
+}
+
+#FamilyRoom:hover {
+    color: rgb(218, 163, 141);
+}
+
+
+.SuiteDoubleRoomFamilyRoomh1h1h1 {
+    font-size: 45px;
+    text-decoration: none;
+    color: black;
+}
+
+.sub {
+    position: relative;
+    top: -30px;
+    font-size: 40px;
+}
+
+.pernight249 {
+    font-size: 100px;
+}
+
+.main4unoderlist {
+    position: relative;
+    left: 12px;
+    top: 5px;
+    list-style-type: square;
+    font-size: 10px;
+    color: gray;
+}
+
+.on {
+    font-size: 19px;
+    line-height: 35px;
+}
+
+.BOOK-NOW {
+    width: 160px;
+    height: 47px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    background-color: rgb(209, 160, 132);
+    border: 1px solid rgb(209, 160, 132);
+    color: white;
+    position: relative;
+    top: 40px;
+}
+
+.BOOK-NOW:hover {
+    background-color: black;
+    border: 1px solid black;
+}
+
+.maindiv5 {
+    width: 1343px;
+    height: 1050px;
+    background-color: rgb(253, 248, 249);
+}
+
+.DiningBar {
+    font-size: 55px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.Tasteourtrademarkcocktails {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 40px;
+    line-height: 30px;
+    color: gray;
+}
+
+.main5MAINSDESSERTSDRINKS {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.MAINSDESSERTSDRINKS {
+    text-decoration: none;
+    margin: 0px 16px 0px 16px;
+    color: gray;
+}
+
+.MAINSDESSERTSDRINKS:hover {
+    color: black;
+}
+
+.maindiv5MezzoAperolElderflowerBellini {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+
+}
+
+.divhreecoldringimg {}
+
+.h1paragraph {
+    line-height: 45px;
+    font-weight: 100;
+    word-spacing: -1px;
+}
+
+.h1paragraph45 {
+    line-height: 60px;
+    color: rgb(192, 154, 132);
+    font-weight: 100;
+    font-size: 25px;
+}
+
+#div5idparagraph {
+    color: gray;
+}
+
+.sign45 {
+    position: relative;
+    top: 7px;
+    font-size: 30px;
+}
+
+.sup8 {
+    position: relative;
+    top: 7px;
+    font-size: 30px;
+}
+
+.threecoldringimg {
+    width: 602px;
+    height: 446px;
+    border: 15px solid white;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+.buttonSEEALLMENU {
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+.SEEALLMENU {
+    width: 180px;
+    height: 50px;
+    font-size: 12px;
+    letter-spacing: 1.3px;
+    background-color: rgb(253, 248, 249);
+    border: 1px solid rgb(209, 160, 132);
+    color: rgb(189, 153, 133);
+}
+
+.SEEALLMENU:hover {
+    color: black;
+    border: 1px solid black;
+}
+
+
+
+.chocolaticolor {
+    width: 1343px;
+    height: 970px;
+    background-color: rgba(122, 71, 19, 0.603);
+}
+
+.Alittleextra {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 100px;
+    letter-spacing: 1px;
+}
+
+.Amenities {
+    text-align: center;
+    color: white;
+    font-size: 55px;
+    letter-spacing: 1px;
+    padding-top: 30px;
+}
+
+.Besidesourmainservices {
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    font-size: 19px;
+    line-height: 30px;
+}
+
+
+.aeroplainandabout {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 60px;
+}
+
+.aeroplain {
+    width: 612px;
+    height: 486px;
+    border: 15px solid white;
+}
+
+.BookaSuiteNow {
+    font-size: 40px;
+    color: white;
+    padding-top: 30px;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+.Thatscorrect {
+    font-size: 19px;
+    color: white;
+    padding-top: 30px;
+    line-height: 30px;
+}
+
+.Pricesstartat {
+    font-size: 34px;
+    color: white;
+    padding-top: 30px;
+    font-weight: 100;
+}
+
+
+
+.pernightaeroplain {
+    color: white;
+    font-weight: 100;
+    padding-top: 10px;
+}
+
+.sub249 {
+    position: relative;
+    top: -30px;
+    font-size: 30px;
+}
+
+.pernight249aeroplain {
+    font-size: 90px;
+}
+
+
+.aeroplainbooknow {
+    width: 165px;
+    height: 50px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: rgb(241, 241, 241);
+    position: relative;
+    top: 30px;
+}
+
+.aeroplainbooknow:hover {
+    background-color: white;
+    color: black;
+}
+
+.ReadtheReviews {
+    text-align: center;
+    font-weight: 100;
+    text-transform: uppercase;
+    padding-top: 100px;
+    word-spacing: 3px;
+}
+
+.OurHotelGuests {
+    text-align: center;
+    font-size: 60px;
+    padding-top: 25px;
+}
+
+.dineshmanojrohit {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.dinesh {
+    width: 100px;
+    height: 100px;
+    background-image: url(dinesh\ photo.jpg);
+    background-position: center;
+    border-radius: 50px;
+}
+
+.manoj {
+    width: 100px;
+    height: 100px;
+    background-image: url(manoj\ photo.jpg);
+    background-position: center;
+    border-radius: 50px;
+}
+
+.rohit {
+    width: 100px;
+    height: 100px;
+    background-image: url(rohit\ photo.jpg);
+    background-position: center;
+    border-radius: 50px;
+
+}
+
+#Superb12 {
+    position: relative;
+    left: 1px;
+}
+
+.SuperbIncredibleExceptional {
+    font-size: 35px;
+    font-weight: 100;
+    padding-top: 120px;
+    position: relative;
+    right: 21px;
+}
+
+.paregraphWhileChoosingIve {
+    height: 300PX;
+    text-align: center;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-evenly;
+    position: relative;
+    top: 70px;
+    line-height: 30px;
+    color: gray;
+}
+
+.dineshmanojrohitname {
+    color: black;
+    padding-top: 20px;
+    font-weight: 200;
+}
+
+.buttonmanu {
+    width: 1343px;
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+.manu {
+    width: 250px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid rgb(189, 153, 133);
+    color: rgb(189, 153, 133);
+}
+
+.manu:hover {
+    border: 1px solid black;
+    color: black;
+}
+
+.HotelLocationMap {
+    height: 620px;
+    width: 1243px;
+    background-color: rgb(248, 248, 248);
+    margin-top: 100px;
+    display: flex;
+    padding-left: 15px;
+
+}
+
+.HotelLocation {
+    padding-top: 120px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.DrivingDirections {
+    font-size: 55px;
+    padding-top: 30px;
+}
+
+.Followthe14th {
+    font-size: 20px;
+    padding-top: 40px;
+    color: gray;
+}
+
+.km54km18 {
+    display: flex;
+    font-size: 35px;
+    padding-top: 50px;
+}
+
+.km5418 {
+    font-size: 45px;
+
+}
+
+.km18 {
+    padding-left: 80px;
+}
+
+.awayfromtown {
+    font-size: 33px;
+    margin-top: 30px;
+    font-weight: 100;
+    line-height: 45px;
+}
+
+.awayfromairport {
+    font-size: 33px;
+    margin-top: 30px;
+    font-weight: 100;
+    line-height: 45px;
+    padding-left: 80px;
+}
+
+.tajhotel {
+    position: relative;
+    left: 170px;
+}
+
+
+.SignUpforaNewsletter {
+    height: 250px;
+    width: 1343px;
+    background-color: rgba(143, 72, 22, 0.63);
+    display: flex;
+}
+
+.signup {
+    margin-top: 77px;
+    margin-left: 20px;
+    font-size: 41px;
+    font-weight: 100;
+    color: white;
+}
+
+.andnever {
+    margin-left: 20px;
+    font-size: 17px;
+    font-weight: 100;
+    color: rgb(240, 240, 240);
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.enteryouremail {
+    margin-left: 300px;
+    margin-top: 99px;
+    color: gray;
+    height: 50px;
+    width: 400px;
+    font-size: 15px;
+    padding: 0 20px;
+    border: none;
+}
+
+.Subscribe {
+    width: 120px;
+    height: 50px;
+    border: 1px solid white;
+    letter-spacing: 1px;
+    background-color: transparent;
+    color: rgb(243, 242, 242);
+    position: relative;
+    top: -1px;
+}
+
+.Subscribe:hover {
+    color: rgb(26, 26, 26);
+    background-color: white;
+}
+
+.sixphotos {
+    width: 1343px;
+    display: flex;
+    height: 200px;
+}
+
+#gallery {
+    width: 223.83px;
+}
+
+
+.footer-div-1 {
+    width: 1343px;
+    height: 320px;
+    background-color: rgb(24, 23, 23);
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer-div-2 {
+    margin-top: 70px;
+    margin-left: 15px;
+    width: 440px;
+}
+
+#footer-div-3 {
+    width: 370px;
+}
+
+.footer-modern {
+    font-size: 40px;
+    color: white;
+    font-weight: 550;
+}
+
+.footer-besthotel {
+    font-size: 10px;
+    color: gray;
+    letter-spacing: 5px;
+    padding-left: 30px;
+}
+
+.footer-WhiletheModern {
+    padding-top: 30px;
+    font-size: 16px;
+    color: gray;
+    line-height: 20px;
+    word-spacing: -1px;
+}
+
+.Recentposts {
+    font-size: 17px;
+    color: white;
+    font-weight: 100;
+}
+
+.CalvinFitzgerald {
+    color: gray;
+    padding-top: 20px;
+}
+
+
+.CalvinFitzgerald1 {
+    color: gray;
+}
+
+.CalvinFitzgerald1:hover {
+    color: white;
+}
+
+.AefinitiveGuide {
+    font-size: 17px;
+    padding-top: 10px;
+    color: rgb(241, 241, 241);
+    transform: smooth;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+}
+
+.AefinitiveGuide:hover {
+    color: rgba(248, 194, 156, 0.966);
+}
+
+.contacts {
+    font-size: 17px;
+    color: white;
+    font-weight: 100;
+}
+
+.footer-location-icon {
+    height: 15px;
+    position: relative;
+    top: 20px;
+}
+
+.SMissouriSt {
+    width: 330px;
+    position: relative;
+    left: 20px;
+    color: gray;
+
+}
+
+.SMissouriSt:hover {
+    color: rgba(206, 162, 130, 0.966);
+}
+
+
+
+.footer-call-icon {
+    height: 15px;
+    position: relative;
+    top: 20px;
+}
+
+.footer-contact-us {
+    width: 330px;
+    position: relative;
+    left: 20px;
+    color: gray;
+}
+
+
+
+.footer-mobile-number {
+    color: gray;
+}
+
+.footer-mobile-number:hover {
+    color: rgba(206, 162, 130, 0.966);
+}
+
+
+.footer-mail-icon {
+    height: 15px;
+    position: relative;
+    top: 20px;
+}
+
+.footer-mail {
+    width: 330px;
+    position: relative;
+    left: 23px;
+    color: rgba(206, 162, 130, 0.966);
+}
+
+.footer-mail:hover {
+    color: white;
+}
+
+
+.footer-last-div {
+    height: 50px;
+    width: 1343px;
+    background-color: black;
+    display: flex;
+}
+
+.footer-Modern-Hotel-2024 {
+    color: gray;
+    padding-top: 20px;
+    font-size: 13px;
+    padding-left: 15px;
+}
+
+.PrivacyPolicy {
+    color: rgba(206, 162, 130, 0.966);
+}
+
+.PrivacyPolicy:hover {
+    color: white;
+}
+
+.footer-icon-socal-media {
+    width: 1010px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.icon-facbook-twitter-instgram-youtube {
+    height: 20px;
+    padding: 0px 5px 0px 5px;
+}
+
+.icon1234:hover {
+    filter: brightness(0) invert(1);
+  
+}
